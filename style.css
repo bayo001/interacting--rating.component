@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Overpass",sans-serif;
+  font-size: 15px;
+   /* background-color: hsl(216, 12%, 8%);  */
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+  justify-content: center;
+  min-height: 100vh;
+}
+ul{
+  list-style: none;
+}
+.button{
+  font-family: inherit;
+}
+p{
+  line-height: 1.8;
+}
+.main-container,.second-container {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  max-width: 400px;
+}
+ .first-img{
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.main-container h1{
+  color:hsl(0, 0%, 100%);
+  margin: 2rem 0 1rem;
+}
+.main-container p{
+  color: hsl(217, 12%, 63%);
+ margin-bottom: 1rem; 
+}
+.main-container ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .main-container li button{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color:hsl(213, 20%, 22%);
+  color:hsl(0, 0%, 100%) ;
+  padding: top 0.2rem;
+ 
+  transition: 0.3s;   
+}
+
+.main-container ul li button:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+.main-container ul li button:focus{
+  background-color: hsl(217, 12%, 63%);;
+}
+
+.btn-submit{
+  background-color:  hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 0.5rem 0 0.4rem;
+  border: none;
+  border-radius: 30px;
+  color:hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+ }
+ .btn-submit:hover{
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(25, 97%, 53%);
+ }
+ .second-container .second-img{
+  display: block;
+  margin: 0 auto 2rem;
+ }
+ .second-container .selection{
+  background-color: hsl(213,20%,22%);
+  border-radius: 30px;
+  color:hsl(25, 97%, 53%) ;
+  padding:0.2rem 0rem 0 ;
+  font-size: 0.9rem;
+  text-align: center;
+ }
+ .second-container{
+  text-align: center;
+ }
+ h2{
+  color: hsl(0, 0%, 100%);
+  margin-top: 1rem;
+  
+ }
+
+
+ .second-p{
+  color: hsl(217, 12%, 63%);
+ }
+ .hidden{
+  display: none;
+ }
